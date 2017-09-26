@@ -8,7 +8,7 @@ public class DecimalToBinary {
     private int remainder;
 
     public DecimalToBinary() {
-        intList = new ArrayList<Integer>();
+        intList = new ArrayList<>();
     }
 
     public void decimalToBinary(int decimal) {
@@ -22,6 +22,10 @@ public class DecimalToBinary {
         for(int element : intList) {
             System.out.print(element);
         }
+    }
+
+    public void binaryToDecimal(int binary) {
+        
     }
 
     public Scanner getScanner() {
